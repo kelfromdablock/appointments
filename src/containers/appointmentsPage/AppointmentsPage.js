@@ -39,7 +39,7 @@ export const AppointmentsPage = ({appointments, contacts, addAppointment}) => {
           setDate={setDate}
           time={time}
           setTime={setTime}
-          onSumbit={handleSubmit}/>
+          handleSubmit={handleSubmit}/>
       </section>
       <hr />
       <section>
